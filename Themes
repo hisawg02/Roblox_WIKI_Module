@@ -1,0 +1,49 @@
+local Themes = {	
+	Default = {
+		Name = "Default",
+		Window = Color3.fromRGB(255,255,255),
+		Pages = Color3.fromRGB(255,255,255),
+		Workspace = Color3.fromRGB(255,255,255),
+		Text = Color3.fromRGB(0,0,0),
+		Button = Color3.fromRGB(255,255,255),
+		Scrool = Color3.fromRGB(0, 0, 0)
+	},
+	Dark = {
+		Name = "Dark",
+		Window = Color3.fromRGB(255,255,255),
+		Pages = Color3.fromRGB(46, 46, 46),
+		Workspace = Color3.fromRGB(46, 46, 46),
+		Text = Color3.fromRGB(255, 255, 255),
+		Button = Color3.fromRGB(126, 126, 126),
+		Scrool = Color3.fromRGB(255, 255, 255)
+	},
+	WindowsXp = {
+		Name = "Windows XP",
+		Window = Color3.fromRGB(0, 85, 255),
+		Pages = Color3.fromRGB(236, 223, 216),
+		Workspace = Color3.fromRGB(236, 223, 216),
+		Text = Color3.fromRGB(255, 255, 255),
+		Button = Color3.fromRGB(211, 199, 193),
+		Scrool = Color3.fromRGB(140, 176, 248)
+	},
+	ForestGreen = {
+		Name = "Forest Green",
+		Window = Color3.fromRGB(255, 255, 255),
+		Pages = Color3.fromRGB(0, 81, 0),
+		Workspace = Color3.fromRGB(0, 81, 0),
+		Text = Color3.fromRGB(255, 255, 255),
+		Button = Color3.fromRGB(0, 162, 0),
+		Scrool = Color3.fromRGB(0, 154, 0)
+	},
+	Black = {
+		Name = "Black",
+		Window = Color3.fromRGB(255, 255, 255),
+		Pages = Color3.fromRGB(0, 0, 0),
+		Workspace = Color3.fromRGB(0, 0, 0),
+		Text = Color3.fromRGB(255, 255, 255),
+		Button = Color3.fromRGB(255, 255, 255),
+		Scrool = Color3.fromRGB(76, 76, 76)
+	},
+}
+
+return Themes
