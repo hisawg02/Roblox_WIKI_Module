@@ -1,0 +1,11 @@
+local data = {
+	{"Title","Home"},
+	{"Text","Thanks for using my wiki browser! By hahaxio7777(DC)! 😎👍👍"},
+	{"Image","rbxassetid://12884787399"},
+	{"Text","▲baconhair is happy because you use this browser! :D"},
+	{"Text","You can create your own wiki here!"},
+	{"Text","Then use this module in your script to let other players know the functions and interesting things of your script!"},
+	{"Link","If you want to know which elements can be used, please click here","https://raw.githubusercontent.com/hisawg02/Roblox_WIKI_Module/refs/heads/main/PageTest"}
+}
+
+return data
