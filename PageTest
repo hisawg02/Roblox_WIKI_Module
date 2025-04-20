@@ -1,6 +1,6 @@
 local data = {
 	{"Title","test"},
-	{"Text","This is a Test (not exams lol)"},
+	{"Text","This is an Test (not exams lol)"},
 	{"Text","So, this is bacon hair! :DDD"},
 	{"Image","rbxassetid://99689082897866"},
 	{"Text","And Video"},
