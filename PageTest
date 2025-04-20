@@ -11,7 +11,8 @@ local data = {
 	{"Button","Don't Press!!!",Func =  function()
 		game.Players.LocalPlayer:Kick("I SAID DON'T PRESS THIS BUTTON!!!!!")
 	end,},
-	{"Code","Script","--by hahaxio7777(DC)"}
+	{"Code","--by hahaxio7777(DC)"},
+	{"Link","Reload This Page","https://raw.githubusercontent.com/hisawg02/Roblox_WIKI_Module/refs/heads/main/PageTest"}
 }
 
 return data
