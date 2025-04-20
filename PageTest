@@ -7,10 +7,11 @@ local data = {
 	{"Video","rbxassetid://5608337069"},
 	{"Text","F, never loads completely..."},
 	{"Text","So.. that's all"},
-	{"Text","Bye! And.. Don't Press the button."},
+	{"Text","Bye! And.. <s>Don't Press the button.</s>"},
 	{"Button","Don't Press!!!",Func =  function()
 		game.Players.LocalPlayer:Kick("I SAID DON'T PRESS THIS BUTTON!!!!!")
-	end,}
+	end,},
+	{"Code","--by hahaxio7777(DC)"},
 }
 
 return data
