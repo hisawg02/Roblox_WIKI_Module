@@ -1,4 +1,5 @@
 local data = {
+	{"Direct Sound","rbxassetid://8304443672",2},
 	{"Title","Home"},
 	{"Text","Thanks for using my wiki browser! By hahaxio7777(DC)! 😎👍👍"},
 	{"Image","rbxassetid://12884787399"},
