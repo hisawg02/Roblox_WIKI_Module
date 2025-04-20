@@ -15,7 +15,7 @@ local data = {
 	{"Link","Reload This Page","https://raw.githubusercontent.com/hisawg02/Roblox_WIKI_Module/refs/heads/main/PageTest"},
 	{"Button","Let the page load error",Func = function()
 		error("If you see this message, why did you do this to crash the page?")
-	end,}
+	end},
 }
 
 return data
