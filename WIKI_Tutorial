@@ -1,1 +1,72 @@
+local data = {
+	{"Dircet Sound","rbxassetid://2084290015",2},
+	{"Title","Tutorial:Create your own WIKI!"},
+	{"Text","Are you ready? Let's get started! 😎👍"},
+	{"Image","rbxassetid://17459499129"},
+	{"Title","Setup"},
+	{"Text","This is the most important part of this tutorial so please read it carefully!"},
+	{"Text","First, import the module:"},
+	{"Code","Example",[[loadstring(game:HttpGet("https://raw.githubusercontent.com/hisawg02/Roblox_WIKI_Module/refs/heads/main/Loader"))()]]},
+	{"Title","Page Format"},
+	{"Code","Format",[[
+		local data = {<Data(table)>}
+		return data
+	]]},
+	{"Title","Note: The following contents should be put into <Data(table)>"},
+	{"Title","Create a title"},
+	{"Text","The most important thing in your article is the title! Here’s how to create it:"},
+	{"Code","Example: Creating a Title",[[{"Title","test"},]]},
+	{"Text","There will be elements like this:"},
+	{"Title","test"},
+	{"Title","Create a Text"},
+	{"Text","Words are also important. Without words, it would be difficult to express something."},
+	{"Code","Create a text",[[{"Text","test"}]]},
+	{"Text","There will be elements like this:"},
+	{"Text","test"},
+	{"Title","Create a Image"},
+	{"Text","Text alone is boring. Let's add some fun. Besides being less boring, it can also make it easier for people to understand something. So why not add pictures to your page!"},
+	{"Code","Create a Image",[[{"Image","rbxassetid://13642188635"},]]},
+	{"Text","There will be elements like this:"},
+	{"Image","rbxassetid://13642188635"},
+	{"Title","Create a Video"},
+	{"Text","We can try to animate the image. Videos can record the big and small events in life. Add videos to help people understand what you are explaining."},
+	{"Code","Create a Video",[[{"Video","rbxassetid://5608321996"},]]},
+	{"Text","There will be elements like this:"},
+	{"Video","rbxassetid://5608321996"},
+	{"Title","Create a Button"},
+	{"Text","Still bored? Then add a button! You can customize the action after pressing the button!"},
+	{"Text",[[<b><color=#FF0000>Important: Add "Func =" before the third variable.</color></b>]]},
+	{"Code","Create a Button",[[
+	{"Button","Press me to add time",Func = function()
+		game.Lighting.ClockTime+=1
+		end},
+		]]},
+	{"Text","There will be elements like this:"},
+	{"Button","Press me to add time",Func = function()
+		game.Lighting.ClockTime+=1
+	end},
+	{"Title","Create a Code"},
+	{"Text","I guess you'll want to share your code here, right? Don't worry, there's a way for players to quickly copy your code!"},
+	{"Code","Create a Code",[[{"Code","Create a Code","Print("Hello World!")"},]]},
+	{"Text","There will be elements like this:"},
+	{"Code","Create a Code",[[Print("Hello World!")]]},
+	{"Title","Create a Link"},
+	{"Text",[[Do you think it's too troublesome to enter the URL manually? Then you need the help of "Link"! Just press the button to jump directly!]]},
+	{"Code","Create a Link",[[{"Link","https://raw.githubusercontent.com/hisawg02/Roblox_WIKI_Module/refs/heads/main/WIKI_Tutorial"}]]},
+	{"Text","There will be elements like this:"},
+	{"Link","https://raw.githubusercontent.com/hisawg02/Roblox_WIKI_Module/refs/heads/main/WIKI_Tutorial"},
+	{"Title","Create Direct Sound"},
+	{"Text","Want to have a sound effect when the web page is loading? This element can meet your needs!"},
+	{"Code","Create Dircet Sound",[[{"Dircet Sound","rbxassetid://2084290015",2(Volume)}]]},
+	{"Text","This element is used to implement the sound when this page is first loaded!"},
+	{"Title","Create Sound Player"},
+	{"Text","The watch page is too boring? You can watch while listening to music!"},
+	{"Code","Create a Sound Player",[[{"SoundPlayer","Bacon hair.mp3","rbxassetid://122751054817561",2(Volume)}]]},
+	{"Text","There will be elements like this:"},
+	{"SoundPlayer","Bacon hair.mp3","rbxassetid://122751054817561",2},
+	{"Title","That's all, more will be updated later!"},
+	{"Text","Tip: You can use some HTML formats to make text have special effects, such as <b> (bold) <i> (italic) <u> (underline) <s> (strikethrough) <font> (font) <color=> (text color)"}
 
+}
+
+return data
