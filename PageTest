@@ -12,7 +12,10 @@ local data = {
 		game.Players.LocalPlayer:Kick("I SAID DON'T PRESS THIS BUTTON!!!!!")
 	end,},
 	{"Code","Credit","--by hahaxio7777(DC)"},
-	{"Link","Reload This Page","https://raw.githubusercontent.com/hisawg02/Roblox_WIKI_Module/refs/heads/main/PageTest"}
+	{"Link","Reload This Page","https://raw.githubusercontent.com/hisawg02/Roblox_WIKI_Module/refs/heads/main/PageTest"},
+	{"Button","Let the page load error",Func = function()
+		error("If you see this message, why did you do this to crash the page?")
+	end,}
 }
 
 return data
