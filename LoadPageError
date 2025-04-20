@@ -1,7 +1,7 @@
 local data = {
 	{"Title",":( Oops,Looks like something went wrong"},
 	{"Image","rbxassetid://82157276270732"},
-	{"An error occurred while loading this page Details:"}
+	{"Text","An error occurred while loading this page Details:"}
 }
 
 return data
