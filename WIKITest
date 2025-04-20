@@ -1,0 +1,8 @@
+local data = {
+	{
+		Name = "Test",
+		Goto = "https://raw.githubusercontent.com/hisawg02/Roblox_WIKI_Module/refs/heads/main/PageTest"
+	}
+}
+
+return data
