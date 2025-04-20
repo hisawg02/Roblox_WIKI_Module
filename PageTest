@@ -2,6 +2,7 @@ local data = {
 	{"Title","test"},
 	{"Text","This is an Test (not exams lol)"},
 	{"Text","So, this is bacon hair! :DDD"},
+	{"SoundPlayer","Bacon hair.mp3","rbxassetid://122751054817561",2},
 	{"Image","rbxassetid://99689082897866"},
 	{"Text","And Video"},
 	{"Video","rbxassetid://5608337069"},
