@@ -11,7 +11,7 @@ local data = {
 	{"Button","Don't Press!!!",Func =  function()
 		game.Players.LocalPlayer:Kick("I SAID DON'T PRESS THIS BUTTON!!!!!")
 	end,},
-	{"Code","--by hahaxio7777(DC)"},
+	{"Code","Script","--by hahaxio7777(DC)"}
 }
 
 return data
