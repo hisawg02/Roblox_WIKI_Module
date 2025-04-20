@@ -1,0 +1,16 @@
+local data = {
+	{"Title","test"},
+	{"Text","This is a Test (not exams lol)"},
+	{"Text","So, this is bacon hair! :DDD"},
+	{"Image","rbxassetid://99689082897866"},
+	{"Text","And Video"},
+	{"Video","rbxassetid://5608337069"},
+	{"Text","F, never loads completely..."},
+	{"Text","So.. that's all"},
+	{"Text","Bye! And.. Don't Press the button."},
+	{"Button","Don't Press!!!",Func =  function()
+		game.Players.LocalPlayer:Kick("I SAID DON'T PRESS THIS BUTTON!!!!!")
+	end,}
+}
+
+return data
