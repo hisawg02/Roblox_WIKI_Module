@@ -6,7 +6,11 @@ local data = {
 	{
 		Name = "Module Functions",
 		Goto = "https://raw.githubusercontent.com/hisawg02/Roblox_WIKI_Module/refs/heads/main/WILI_Tutorial_Module_Page",
-	}
+	},
+	{
+		Name = "Return to original WIKI",
+		Goto = "https://raw.githubusercontent.com/hisawg02/Roblox_WIKI_Module/refs/heads/main/WIKI_Tutorial_Return",
+	},
 }
 
 return data
