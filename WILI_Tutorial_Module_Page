@@ -1,0 +1,20 @@
+local data = {
+	{"Title","Module Usage"},
+	{"Title","Setup"},
+	{"Text","This is the most important part of this tutorial so please read it carefully!"},
+	{"Text","First, import the module:"},
+	{"Code","Example",[[local module = loadstring(game:HttpGet("https://raw.githubusercontent.com/hisawg02/Roblox_WIKI_Module/refs/heads/main/Loader"))()]]},
+	{"Text","This will lunch this browser"},
+	{"Title","Functions"},
+	{"Code","LoadPage",[[<Module>.LoadWIKIPageFromURL(<URL>)]]},
+	{"Text","This function will load the page at the specified URL."},
+	{"Text","Note: You need to use raw URL."},
+	{"Code","LoadWIKI",[[<Module>.LoadWIKI(<URL>)]]},
+	{"Text","This function will load the wiki at the specified URL"},
+	{"Text","Note: You need to use raw URL."},
+	{"Code","SetHomePage",[[<Module>.SetHomePage(<URL>)]]},
+	{"Text","This function will determine the URL that the player will jump to when pressing the Home button"},
+	{"Text","Note: You need to use raw URL."},
+}
+
+return data
