@@ -13,6 +13,26 @@ local data = {
 		return data
 	]]},
 	{"Title","Note: The following contents should be put into <Data(table)>"},
+	{"Title","Create multiple Pages"},
+	{"Text","Just one page would be too cluttered so it can be split into multiple pages!"},
+	{"Code","Create multiple Pages",
+	[[
+	local data = {
+	{
+		Name = "<Name>",
+		Goto = "<PageRawLink>"
+	},
+	{
+		Name = "<Name>",
+		Goto = "<PageRawLink>"
+	},
+	{
+		Name = "<Name>",
+		Goto = "<PageRawLink>"
+	},......
+}
+	return data
+	]]},
 	{"Title","Create a title"},
 	{"Text","The most important thing in your article is the title! Here’s how to create it:"},
 	{"Code","Example: Creating a Title",[[{"Title","test"},]]},
