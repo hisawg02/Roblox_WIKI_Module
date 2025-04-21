@@ -1,0 +1,5 @@
+local data = {
+	{"Link","Return to original wiki","browser://returndefwiki"}
+}
+
+return data
